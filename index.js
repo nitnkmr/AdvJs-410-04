@@ -11,8 +11,10 @@
    <h3>Weather of <span>${data.name}</span></h3>
 </div>
 <div class="cardbody">
-   <div class="sky">Cloud : <span>${data.weather[0].main}</span></div>
+   <div class="sky">Weather : <span>${data.weather[0].main}</span></div>
    <div class="temp">Temprature : <span>${data.main.temp} C</span></div>
+   <div class="temp">Real Feel : <span>${data.main.feels_like} C</span></div>
+   <div class="temp">Humidity : <span>${data.main.humidity} %</span></div>
    <div class="wind">Wind Speed : <span>${data.wind.speed}km/h</span></div>
 </div>`
 
